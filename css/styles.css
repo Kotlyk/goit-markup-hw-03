@@ -9,10 +9,11 @@
     --accent-backgroud-color: #F5F4FA;
 }
 
-/* ссылки в футере сolor: rgba(255, 255, 255, 0.6); */
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -23,6 +24,13 @@ body {
     letter-spacing: 0.03em;
 }
 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: tomato solid 2px ;
+}
     
 /* header */
 header{
@@ -75,11 +83,18 @@ header .logo {
     color: var(--accent-color);
 }
 
+
 /* hero */
 .hero{
     background-color: #2F303A;
-}
+    text-align: center;
+  }
+
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    /* padding-top: 200px; */
+    /* padding-bottom: 280px; */
     color: var(--title-color);
     font-weight: 900;
     font-size: 44px;
@@ -87,21 +102,32 @@ header .logo {
     text-transform: uppercase;
     letter-spacing: 0.06em;
    }
+
 .button {
     color: var(--title-color);
+    border-radius: 4px;
+    border: 0;
+    padding: 10px 32px;
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
 
-
+.section{
+    padding-top: 94px;
+}
 /* feature section */
 
-
+/* .feature{
+    margin-top: 94px;
+} */
 .feature-subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -109,12 +135,17 @@ header .logo {
     text-transform: uppercase;
 }
 .feature-text {
+    margin: 0;        
+    padding: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
 /* work section*/
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -136,6 +167,8 @@ background-color: var(--accent-backgroud-color);
     line-height: 1.2;
 }
 .team-text{
+    margin: 0;
+    padding: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -183,12 +216,16 @@ background-color: var(--accent-backgroud-color);
  /* portfolio */
  /* page nav  */
 .button-nav{
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: 0;
     color: var(--title-text-color);
-    background-color: var(--primary-background-color);
-    font-family: 'Roboto';
+    background-color: var(--accent-backgroud-color);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 .button-nav:hover,
