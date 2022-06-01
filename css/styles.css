@@ -16,6 +16,10 @@
     margin: 0;
 }
 
+h1, h2,
+h3, h4, h5, h6{
+margin: 0;
+}
 
 body {
     color: var(--primary-text-color);
@@ -91,6 +95,7 @@ header .logo {
   }
 
 .hero-title{
+    
     margin-top: 0;
     margin-bottom: 30px;
     color: var(--title-color);
@@ -99,6 +104,8 @@ header .logo {
     line-height: 1.4;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    max-width: 696px;
+    
    }
 
 .button {
@@ -117,11 +124,10 @@ header .logo {
 .section{
     padding-top: 94px;
 }
+
 /* feature section */
 
-/* .feature{
-    margin-top: 94px;
-} */
+
 .feature-subtitle {
     margin-top: 0;
     margin-bottom: 10px;
@@ -150,7 +156,9 @@ header .logo {
     line-height: 1.2;
     text-align: center;
  }
-
+ .work{
+     display: block;
+    }
 
 /* team section */
 .team{
@@ -176,6 +184,8 @@ background-color: var(--accent-backgroud-color);
 /* footer */
  footer{
      background-color: #2F303A;
+     padding-top: 60px;
+     padding-bottom: 60px;
  }
  footer .logo{
      color: var(--logo-color-footer);
@@ -195,6 +205,8 @@ background-color: var(--accent-backgroud-color);
      font-style: normal;
      text-decoration: none;
      letter-spacing: 0.03em;
+     margin-top: 20px;
+     margin-bottom: 9px;
  }
  
  .address-nav .link{
@@ -245,7 +257,15 @@ background-color: var(--accent-backgroud-color);
  font-weight: 400;
  font-size: 16px;
  line-height: 2;
+ margin: 4px 0 0 0;
  }
  .project-item{
      background-color: #FFFFFF;
+ }
+ .project-about{
+     margin: 20px 24px;
+ }
+ .btn {
+     margin-bottom: 50px;
+     margin-top: 94px;
  }
